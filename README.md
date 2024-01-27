@@ -1,4 +1,4 @@
-# React-Website-Northeastern-Universty-
+# React-Website-Northeastern-Universty-UsingVite
 
 # University Website Application
 
@@ -27,3 +27,5 @@ This project is a React-based application designed for [Northeastern University]
 1. Clone the repo:
    ```bash
    git clone [https://github.com/pratik3336/React-Website-Northeastern-Universty-.git]
+   
+2. Install and run on Vite
