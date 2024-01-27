@@ -1,5 +1,7 @@
 # React-Website-Northeastern-Universty-UsingVite
 
+<img width="1470" alt="Screenshot 2024-01-26 at 8 06 27 PM" src="https://github.com/pratik3336/React-Website-Northeastern-Universty-/assets/76115015/0da13a2f-74ad-41c2-96bd-9b0e9dc406f0">
+
 # University Website Application
 
 ## Overview
