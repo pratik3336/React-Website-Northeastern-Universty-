@@ -1,0 +1,42 @@
+/*Panels.CSS*/
+.panel {
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex; 
+}
+
+.panel-content {
+  display: flex;
+  align-items: center;
+  width: 100%; 
+}
+
+.button1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5rem 0.75rem; 
+  font-size: 0.875rem; 
+  border: none;
+  cursor: pointer;
+}
+
+.panel-image {
+  width: 7.5rem; 
+  height: 7.5rem;
+  object-fit: cover; 
+}
+
+.panel-text {
+  padding: 1em;
+  flex-grow: 1; 
+}
+
+.panel h3 {
+  margin-top: 0;
+}
+
+.panel p {
+  margin-bottom: 1em;
+}

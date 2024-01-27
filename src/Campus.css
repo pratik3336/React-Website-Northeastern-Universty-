@@ -1,0 +1,42 @@
+/*Campus.CSS */
+select {
+  padding: 0.625rem;
+  margin: 0.625rem 0;
+  border-radius: 0.25rem;
+  margin-bottom: 0.625rem;
+}
+
+.image-container {
+  display: flex; 
+  justify-content: center; 
+  gap: 0.625rem; 
+  margin-top: 1.25rem;
+}
+
+.campus-container .selected-campus .image-container img {
+  border: 0.125rem solid red; 
+  height: 25rem;
+  width: 18.75rem;
+}
+
+
+.campus-container {
+  text-align: center;
+  padding: 5rem;
+  margin-bottom: 13rem;
+  
+}
+
+.selected-campus {
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+  
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+  .campus-container .selected-campus .image-container img {
+    width: 6.25rem; 
+    height: 12.5rem; 
+  }
+}

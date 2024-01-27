@@ -1,0 +1,51 @@
+/* Footer.css */
+.footer {
+  background-color: red;
+  color: black;
+  padding: 1.25rem;
+  text-align: center;
+  position: static;
+  width: 100%;
+  border-bottom: 0.5rem solid black;
+  border-top: 0.5rem solid black;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+}
+
+.logo-and-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 6.25rem; 
+  height: auto;
+  margin-bottom: 10px;
+}
+.contact-us button {
+  font-size: 1rem; 
+  padding: 0.625rem 1.25rem; 
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1rem;
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .logo-and-description {
+    margin-top: 0.625rem; 
+  }
+
+  .contact-us {
+    margin-top: 0.625rem; 
+  }
+  .contact-us button {
+    font-size: 1rem; 
+    padding: 0.5rem 0.625rem; 
+  }
+}

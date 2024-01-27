@@ -1,0 +1,51 @@
+/* Gallery.css */
+.gallery {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.filter-options {
+  margin-bottom: 3.125rem;
+}
+
+.filter-options button {
+  margin: 0 0.625rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 0.3125rem;
+  background-color: black;
+  color: white;
+  margin-top: 1.875rem;
+}
+
+.filter-options button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0.625rem;
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0 0 0.3125rem black;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.3125rem;
+  box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.1);
+}
+
+/* Media Query*/
+@media screen and (max-width: 991px) {
+  .image-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 1rem; 
+  }
+}

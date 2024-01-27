@@ -1,0 +1,28 @@
+/*Button CSS*/
+.btn {
+  padding: 0.9375rem 1.25rem; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  margin-bottom: 0.625rem;
+}
+
+.btn.button {
+  background-color: blue;
+  color: white;
+}
+
+.btn.button:hover {
+  background-color: darkblue; 
+}
+
+.btn.link {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+  border: none;
+}
+
+.btn.link:hover {
+  color: darkblue; 
+  text-decoration: none;
+}

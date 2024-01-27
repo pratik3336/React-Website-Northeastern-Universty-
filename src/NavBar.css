@@ -1,0 +1,65 @@
+/* NavBar CSS */
+.navbar {
+  background-color: red;
+  padding: 0.625rem;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  border-top: 0.5rem solid black;
+  border-bottom: 0.5rem solid black;
+}
+
+.navbar button {
+  padding: 0.3125rem;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  border: none;
+  color: blanchedalmond;
+  font-size: 1rem;
+}
+
+.navbar button:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.hamburger {
+  display: none; 
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: blanchedalmond;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row; 
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; 
+  }
+
+  .menu {
+    display: none; 
+    flex-direction: column; 
+    width: 100%; 
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar button {
+    padding: 0.625rem; 
+    text-align: left; 
+    width: 100%; 
+  }
+}

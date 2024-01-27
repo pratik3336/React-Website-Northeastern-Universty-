@@ -1,0 +1,94 @@
+/* Reviews.css */
+.Reviews {
+  text-align: center;
+  margin-bottom: 3.125rem;
+}
+
+.panels-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0.625rem;
+}
+.modal-close {
+  color: white;
+  border: none;
+  padding: 0.3125rem 8.125rem;
+  margin-top: 0.625rem;
+  cursor: pointer;
+}
+
+.panel {
+  border: 0.0625rem solid black;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0.625rem;
+  width: 25rem;
+  height: 34.375rem;
+}
+
+.panel-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.panel-image {
+  width: 100%;
+  max-height: 9.375rem;
+  object-fit: cover;
+  padding: 1rem;
+  border: 0.0625rem solid black;
+}
+
+.panel-text {
+  padding: 1em;
+  flex-grow: 1;
+}
+h1{
+  padding: 1rem;
+}
+.panel h3 {
+  margin-top: 0;
+}
+
+.panel p {
+  margin-bottom: 1em;
+}
+
+.button1 {
+  background-color: blue;
+  color: white;
+  padding: 0.5rem 0.75rem; 
+  font-size: 0.75rem; 
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 767px) {
+  .panel {
+    width: 80%;
+    height: 100%;
+    max-width: none;
+  }
+  .button1{
+    margin-bottom: 1rem;
+  }
+  .panels-container {
+    margin-top: 0.625rem;
+  }
+  .modal-close {
+    color: white;
+    border: none;
+    padding: 0.3125rem 7.1875rem;
+    margin-top: 0.625rem;
+    cursor: pointer;
+  }
+}

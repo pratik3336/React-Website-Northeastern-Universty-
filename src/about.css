@@ -1,0 +1,121 @@
+/*About.css */
+.about,
+.about * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.about-section {
+  width: 100%;
+  padding: 1.25rem;
+}
+
+.about-section img {
+  width: 50%; 
+  max-width: 100%; 
+  height: auto; 
+  border: 0.25rem solid #000;
+
+}
+
+
+.about h1 {
+  text-align: center;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.about p {
+  text-align: justify; 
+  margin: 1.25rem 0; 
+}
+
+.button-link {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  font-size: inherit;
+  
+}
+
+.button-link:hover,
+.button-link:focus {
+  text-decoration: none; 
+}
+
+
+.bordered-image {
+  border: 2.25rem solid #000;
+  border-radius: 0.5rem; 
+  padding: 0.625rem;
+  margin: 0.625rem 0;
+  max-width: 100%; 
+  height: auto; 
+}
+
+.bordered-box {
+  border: 0.125rem solid #000;
+  padding: 0.625rem;
+  margin: 0.625rem 0;
+  overflow: auto;
+  max-height: 12.5rem; 
+  
+}
+
+
+.button-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  margin: 0.3125rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: #0056b3; 
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.button-primary:active {
+  background-color: #003d82; 
+  transform: translateY(1px);
+}
+
+
+/* Adding the following media query for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .button-primary,
+  .button-primary:hover,
+  .button-primary:focus,
+  .button-primary:active {
+    transition: none; 
+  }
+}
+
+/*Mobile View */
+@media (max-width: 768px) {
+  .about-input, .modal-content {
+    width: 50%;
+  }
+
+  .about-section img {
+    width: 50%;
+  }
+  .button-primary{
+    width: 50%;
+  }
+}
+

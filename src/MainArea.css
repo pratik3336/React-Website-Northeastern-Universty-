@@ -1,0 +1,65 @@
+/*MainArea.css */
+.mainarea {
+  padding: 1.25rem;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1.25rem;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: blue; 
+  text-decoration: underline; 
+  cursor: pointer;
+}
+
+
+.card {
+  background-color: white;
+  padding: 0.9375rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  width: 100%;
+  height: 70%; 
+  object-fit: cover; 
+  border-radius: 0.5rem;
+}
+
+.card h3 {
+  margin-top: 0.5em;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.foster-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  .card-image {
+    width: 50%;
+    height: 50%; 
+    border-radius: 0.5rem;
+  }
+  .card {
+    width: 100%; 
+  }
+}
+
