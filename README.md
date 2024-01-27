@@ -1,6 +1,7 @@
 # React-Website-Northeastern-Universty-UsingVite
 
-![image](https://github.com/pratik3336/React-Website-Northeastern-Universty-/assets/76115015/9fdba1c5-b643-48cb-baf8-2a7fe64790b7)
+![Untitled design (1)](https://github.com/pratik3336/React-Website-Northeastern-Universty-/assets/76115015/2da432d0-1945-4f97-9ebf-baa258571d18)
+
 
 # University Website Application
 
@@ -9,6 +10,9 @@
 This project is a React-based application designed for [Northeastern University]. It aims to provide a comprehensive platform for students, faculty, and staff to access university resources, information, and services.
 
 ## Features
+
+<img width="627" alt="Screenshot 2024-01-26 at 8 13 47 PM" src="https://github.com/pratik3336/React-Website-Northeastern-Universty-/assets/76115015/5d351672-0667-4f64-b073-e77db926d6e9">
+
 
 - **User Authentication**: Secure login for students, faculty, and staff.
 - **Course Management**: Browse, enroll in, and manage course schedules.
